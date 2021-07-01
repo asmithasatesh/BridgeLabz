@@ -68,12 +68,14 @@ namespace CartesianSystem
             {
                 //Compare two line to check which is greater using "CompareTo" method
                 Console.WriteLine("Length of both (x1,y1)(x2,y2) and (x3,y3)(x4,y4) is different \n");
+                //Ternary operator
                 string cmp =((GlobalData.lineItems[0]).CompareTo(GlobalData.lineItems[1])>0)? "Line 1 is greater than line 2": "Line 2 is greater than line 1";
                 Console.WriteLine(cmp);
 
             }
         }
     }
+
     public static class GlobalData
     {
         //Array to store value of lines
