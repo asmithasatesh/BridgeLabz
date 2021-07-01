@@ -58,6 +58,7 @@ namespace CartesianSystem
             }
         }
     }
+
     public static class GlobalData
     {
         public static string[] lineItems = new string[2];
